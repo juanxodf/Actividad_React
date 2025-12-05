@@ -11,7 +11,7 @@ function ScoopsCounter() {
       <h2>1. Elige cuántas bolas quieres</h2>
       <p>Puedes elegir entre 1 y 5 bolas.</p>
 
-      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', justifyContent:'center'}}>
         <button onClick={decrease}>-1</button>
         <span style={{ fontSize: '1.5rem' }}>{scoops} 🍧</span>
         <button onClick={increase}>+1</button>
