@@ -1,6 +1,7 @@
 import './App.css';
 import IceCreamInfo from './components/IceCremInfo';
 import ScoopsCounter from './components/ScoopsCounter';
+import IceCreamBuilder from './components/IceCreamBuilder';
 
 function App() {
   return (
@@ -14,8 +15,10 @@ function App() {
         <IceCreamInfo />
         <hr />
         <ScoopsCounter />
+        <hr />
+        <IceCreamBuilder />
       </main>
-      
+        
     </div>
   );
 }
