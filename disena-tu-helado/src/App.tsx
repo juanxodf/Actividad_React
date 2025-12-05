@@ -1,5 +1,6 @@
 import './App.css';
 import IceCreamInfo from './components/IceCremInfo';
+import ScoopsCounter from './components/ScoopsCounter';
 
 function App() {
   return (
@@ -11,7 +12,10 @@ function App() {
 
       <main>
         <IceCreamInfo />
+        <hr />
+        <ScoopsCounter />
       </main>
+      
     </div>
   );
 }
